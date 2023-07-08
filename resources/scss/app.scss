@@ -8,10 +8,10 @@ body {
 }
 
 nav li:last-child a {
-  background-color: $primary;
+  background: $primary;
 
   &:hover {
-    background-color: $primary-hover;
+    background: $primary-hover;
   }
 }
 
@@ -23,7 +23,7 @@ nav li a {
 }
 
 section.hero {
-  background-color: $secondary;
+  background: $secondary;
 }
 
 .size {
@@ -35,8 +35,31 @@ section.hero {
   color: $primary;
   transition: $smooth;
   &:hover {
-    background-color: $primary;
+    background: $primary;
     border-color: $pure;
     color: $pure;
   }
+}
+
+.btn-primary {
+  background: $primary;
+  transition: $smooth;
+  &:hover {
+    background: $primary-hover;
+  }
+}
+
+// Cart Page
+
+section.cart {
+  background: $secondary;
+  .amount {
+    color: $primary;
+  }
+}
+
+// Login / Register page
+
+form input {
+  padding: 10px 15px;
 }

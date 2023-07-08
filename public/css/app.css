@@ -5,10 +5,10 @@ body {
 }
 
 nav li:last-child a {
-  background-color: #fe5f1e;
+  background: #fe5f1e;
 }
 nav li:last-child a:hover {
-  background-color: #b23301;
+  background: #b23301;
 }
 
 nav li a {
@@ -19,7 +19,7 @@ nav li a:hover {
 }
 
 section.hero {
-  background-color: #f8f8f8;
+  background: #f8f8f8;
 }
 
 .size {
@@ -32,7 +32,26 @@ section.hero {
   transition: all 0.3s ease-in-out;
 }
 .add-to-cart:hover {
-  background-color: #fe5f1e;
+  background: #fe5f1e;
   border-color: #ffffff;
   color: #ffffff;
+}
+
+.btn-primary {
+  background: #fe5f1e;
+  transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover {
+  background: #b23301;
+}
+
+section.cart {
+  background: #f8f8f8;
+}
+section.cart .amount {
+  color: #fe5f1e;
+}
+
+form input {
+  padding: 10px 15px;
 }
